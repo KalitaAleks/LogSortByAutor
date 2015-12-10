@@ -1,0 +1,7 @@
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\bin\Debug\ConsoleApplication.exe.config
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\bin\Debug\ConsoleApplication.exe.config
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\bin\Debug\ConsoleApplication.exe
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\bin\Debug\ConsoleApplication.pdb
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\LogSortByAutor.csprojResolveAssemblyReference.cache
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\ConsoleApplication.pdb

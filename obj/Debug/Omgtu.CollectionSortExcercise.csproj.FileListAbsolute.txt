@@ -1,0 +1,7 @@
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\bin\Debug\Omgtu.CollectionSortExcercise.exe.config
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\bin\Debug\group.txt
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\bin\Debug\Omgtu.CollectionSortExcercise.exe
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\bin\Debug\Omgtu.CollectionSortExcercise.pdb
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\obj\Debug\Omgtu.CollectionSortExcercise.csprojResolveAssemblyReference.cache
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\obj\Debug\Omgtu.CollectionSortExcercise.exe
+C:\Users\uzer33\Documents\GitHub\CollectionSort\Omgtu.CollectionSortExcercise\Omgtu.CollectionSortExcercise\obj\Debug\Omgtu.CollectionSortExcercise.pdb
