@@ -21,53 +21,43 @@ namespace LogSortByAutor
             string line;
             using (StreamReader file = new StreamReader(fileFullPath))
                 {
-                while (file.EndOfStream != true)
+                for (int i = 0; i <= fileFullPath.Length; i++)
                     {
                     line = file.ReadLine();
-
-                    if (line.StartsWith("commit") == true)
+                    if (line.StartsWith("commit"))
                         {
-                        Commit commit = new Commit();
+                         Commit commit = new Commit();
                         Commits.Add(commit);
-                        line = file.ReadLine();
-                        if (line.StartsWith("commit") != true)
+                        }
+
+                        if (line.StartsWith("Author:"))
                             {
-                            if (line.StartsWith("Author:"))
-                                {
-                                commit.Autor = line;
-                                line = file.ReadLine();
-                                }
-
-                            if (line == null)
-                                {
-                                line = file.ReadLine();
-                                }
-                            while (line.StartsWith("Author:") != true && line.StartsWith("commit") != true)
-                                {
-                                commit.Massage = commit.Massage + line;
-                                line = file.ReadLine();
-                                }
-
+                            Commits[i-1].Autor = line;
                             }
-
+                        if (line.StartsWith("Date:"))
+                            {
+                            Commits[i-2].Date = line;
+                            }
+                        if (line.StartsWith("commit") != true && line.StartsWith("Author:") != true && line.StartsWith("Date:") != true)
+                            {
+                            Commits[i-3].Massage = line;
+                            }
                         }
                     }
-                }
-
             Commits.Sort(CommitComparer.CompareByAutor);
-            string autor = Commits[0].Autor;
+            string autor = Commits[1].Autor;
             Console.WriteLine(autor);
             foreach (Commit commit in Commits)
                 {
                 if (commit.Autor == autor)
                     {
+                    Console.WriteLine(commit.Date);
                     Console.WriteLine(commit.Massage);
                     }
                 if (commit.Autor != autor) 
                     {
                     autor = commit.Autor;
                     Console.WriteLine(autor);
-                    Console.WriteLine(commit.Massage);
                     }
                 }
 
