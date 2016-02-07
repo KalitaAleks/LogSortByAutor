@@ -5,3 +5,6 @@ C:\Users\uzer33\Documents\GitHub\LogSortByAutor\bin\Debug\ConsoleApplication.pdb
 C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\LogSortByAutor.csprojResolveAssemblyReference.cache
 C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\uzer33\Documents\GitHub\LogSortByAutor\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\uzer33\Documents\LogSortByAutor\bin\Debug\ConsoleApplication.exe.config
+C:\Users\uzer33\Documents\LogSortByAutor\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\uzer33\Documents\LogSortByAutor\obj\x86\Debug\ConsoleApplication.pdb
